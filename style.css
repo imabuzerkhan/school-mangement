@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html,
+  body {
+    width: 100%;
+    height: 100%;
+  }
+  
+
+    .container {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      width: 100%;
+      gap: 20px;
+    }
+    
+  
+  
+  .rightcontainer {
+    border: 1px solid gray;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    border-radius: 7px;
+    width: 50%;
+    padding: 5px;
+    margin-top: 10px;
+  }
+  
+  .card {
+    display: flex;
+    margin: 12px;
+    border: 1px solid #DFD6D6;
+    height: 32px;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #E3EAF8;
+  }
+  
+  .data-item {
+    display: flex;
+    margin: 12px;
+    height: 32px;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+ 
+  
+  .leftcontainer {
+    margin-top: 10px;
+    width: 40%;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 7px;
+  }
+  
+  .form_control {
+    margin: 0 20px;
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  select,
+  input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    font-size: 14px;
+    color: #333;
+    outline: none;
+  }
+  
+  input[type="submit"] {
+    width: 100%;
+    background-color: #ccc;
+    border: 1px solid #ccc;
+    color: #000;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    outline: none;
+    padding: 5px;
+  }
+  
+  /* Modal styles */
+.modal {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 300px;
+  width: 80%;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+}
+
+.modal-content {
+  padding: 20px;
+  text-align: center;
+}
+
+.modal-input {
+  display: block;
+  width: calc(100% - 20px);
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin: 8px auto;
+}
+
+.modal-btn {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+}
+
+.modal-btn:last-child {
+  margin-right: 0;
+}
+
+  
